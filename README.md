@@ -13,10 +13,10 @@ With the help of these features, the user can learn Finnish in a fun and interac
 <h3>Screenshots</h3>
 
 <div>
-  <img src="docs/demo-images/IndexEnglish.png" width="300" style="margin-right: 10px;"/>
-  <img src="docs/demo-images/QuizLibrary.png" width="300" style="margin-right: 10px;"/>
-  <img src="docs/demo-images/QuizExample.png" width="300" style="margin-right: 10px;"/>
-  <img src="docs/demo-images/Achievements.png" width="300"/>
+  <img src="docs/demo-images/IndexEnglish.png" width="250" style="margin-right: 10px;"/>
+  <img src="docs/demo-images/QuizExample.png" width="250" style="margin-right: 10px;"/>
+  <img src="docs/demo-images/ProgressPage.png.png" width="250" style="margin-right: 10px;"/>
+  <img src="docs/demo-images/Achievements.png" width="250"/>
 </div>
 
 <p>
