@@ -5,7 +5,7 @@ Here are screenshots showcasing features of the **QuadLingo** application (missi
 
 ### Index Screen in different languages
 
-<img src="./demo-images/IndexEnglish.png" width="400"/>
+<img src="./demo-images/IndexEnglish.png" width="100"/>
 
 <img src="./demo-images/IndexFrench.png" width="400"/>
 
