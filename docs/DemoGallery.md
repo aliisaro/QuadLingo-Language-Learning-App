@@ -1,6 +1,6 @@
 # Demo Gallery
 
-Here are screenshots showcasing features of the **QuadLingo** application (missing home page screenshot).
+Here are screenshots showcasing features of the **QuadLingo** application (missing home page & flash card screenshots!).
 
 ---
 
