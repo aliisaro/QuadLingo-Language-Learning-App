@@ -9,6 +9,19 @@
 The app is designed to help English, French, Chinese and Arabian speakers learn the basics of Finnish. The app has a variety of features such as: user profile and progress, flashcards, quizzes and achievements.
 With the help of these features, the user can learn Finnish in a fun and interactive way.
 
+
+<h3>Screenshots</h3>
+
+![Index screen](docs/demo-images/IndexEnglish.png)
+
+![Quiz Library](docs/demo-images/QuizLibrary.png)
+
+![Quiz](docs/demo-images/QuizExample.png)
+
+![Achievements](docs/demo-images/Achievements.png)
+
+See more demo images in the [Demo Gallery](docs/DemoGallery.md)
+
 ****
 
 <h3>Technology utilized</h3>
@@ -46,6 +59,7 @@ More information about product backlog and sprint processes can be found in the 
 - [Work hours](https://docs.google.com/spreadsheets/d/10PlqGo4965hiHXeSnTN6XlKYykul5-xdi_aEbyekmFA/edit?gid=0#gid=0)
 
 ****
+
 <h3>Database design</h3>
 
 ![ER-diagram](docs/diagrams/ER-diagram.png)
