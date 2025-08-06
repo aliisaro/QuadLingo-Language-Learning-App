@@ -1,52 +1,47 @@
 # Demo Gallery
 
 Here are screenshots showcasing features of the **QuadLingo** application (missing home page screenshot).
----
-
-### Index Screen in different languages
-
-<img src="./demo-images/IndexEnglish.png" width="200"/> <img src="./demo-images/IndexFrench.png" width="200"/>
-
-<img src="./demo-images/IndexChinese.png" width="200"/> <img src="./demo-images/IndexArabic.png" width="200"/>
 
 ---
 
-### Quiz library
+### Index Screen in Different Languages
 
-<img src="./demo-images/QuizLibrary.png" width="200"/>
-
----
-
-### Example quiz
-
-<img src="./demo-images/QuizExample.png" width="200"/>
-
----
-
-### Progress tracking
-
-<img src="./demo-images/ProgressPage.png" width="200"/>
+<div>
+  <img src="./demo-images/IndexEnglish.png" width="200" style="margin-right: 10px;"/>
+  <img src="./demo-images/IndexFrench.png" width="200" style="margin-right: 10px;"/>
+  <img src="./demo-images/IndexChinese.png" width="200" style="margin-right: 10px;"/>
+  <img src="./demo-images/IndexArabic.png" width="200"/>
+</div>
 
 ---
 
-### Achievements
+### Quiz Library and Example Quiz
 
-<img src="./demo-images/Achievements.png" width="200"/>
-
----
-
-### Profile page
-
-<img src="./demo-images/ProfileEnglish.png" width="200"/>
+<div>
+  <img src="./demo-images/QuizLibrary.png" width="200" style="margin-right: 10px;"/>
+  <img src="./demo-images/QuizExample.png" width="200"/>
+</div>
 
 ---
 
-### Logged out page
+### Progress Tracking and Achievements
 
-<img src="./demo-images/LoggedOutPage.png" width="200"/>
+<div>
+  <img src="./demo-images/ProgressPage.png" width="200" style="margin-right: 10px;"/>
+  <img src="./demo-images/Achievements.png" width="200"/>
+</div>
 
 ---
 
-### Error message
+### Profile Page and Logged Out View
+
+<div>
+  <img src="./demo-images/ProfileEnglish.png" width="200" style="margin-right: 10px;"/>
+  <img src="./demo-images/LoggedOutPage.png" width="200"/>
+</div>
+
+---
+
+### Error Message Example
 
 <img src="./demo-images/EnglishError.png" width="200"/>
