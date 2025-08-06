@@ -15,5 +15,11 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="@localhost" uuid="6949649c-eb7b-4baa-aca9-2bf38891dd08">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MARIADB" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>lingo</user-name>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>
