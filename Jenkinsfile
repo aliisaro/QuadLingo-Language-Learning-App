@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+    //TÄHÄN PITÄÄ LAITTAA OMAT CREDENTIALS JA DOCKERHUB REPO
     environment {
         // Define Docker Hub credentials ID
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub_credential'
@@ -10,23 +10,24 @@ pipeline {
         DOCKER_IMAGE_TAG = 'latest'
     }
     stages {
-        stage('Checkout') {
+        stage('Checkout Code') {
             steps {
-                // Checkout code from Git repository specifying the branch
-                git branch: 'main', 
-                    url: 'https://github.com/aliisaro/QuadLingo-Group-project.git'
-                    // Uncomment the next line if credentials are required
-                    // credentialsId: 'your-git-credentials-id'
+                git branch: 'main', url: 'https://github.com/aliisaro/QuadLingo-Group-project.git'
             }
         }
         stage('Build') {
             steps {
-                bat 'mvn clean package'  // Build the project using Maven
+                bat 'mvn clean package'
+            }
+            post {
+                always {
+                    echo 'Cleaning up build files...'
+                }
             }
         }
         stage('Run Unit Tests') {
             steps {
-                bat 'mvn test'  // Run unit tests using Maven
+                bat 'mvn test'
             }
             post {
                 always {
@@ -36,29 +37,11 @@ pipeline {
         }
         stage('Code Coverage Report') {
             steps {
-                bat 'mvn jacoco:report'  // Generate JaCoCo coverage report
+                bat 'mvn jacoco:report'
             }
             post {
                 always {
-                    jacoco execPattern: 'target/jacoco.exec'  // Publish JaCoCo code coverage results
-                }
-            }
-        }
-        stage('Build Docker Image') {
-            steps {
-                // Build Docker image
-                script {
-                    docker.build("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}")
-                }
-            }
-        }
-        stage('Push Docker Image to Docker Hub') {
-            steps {
-                // Push Docker image to Docker Hub
-                script {
-                    docker.withRegistry('https://index.docker.io/v1/', DOCKERHUB_CREDENTIALS_ID) {
-                        docker.image("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}").push()
-                    }
+                    jacoco execPattern: 'target/jacoco.exec'
                 }
             }
         }
