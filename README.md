@@ -12,15 +12,16 @@ With the help of these features, the user can learn Finnish in a fun and interac
 
 <h3>Screenshots</h3>
 
-![Index screen](docs/demo-images/IndexEnglish.png)
+<div>
+  <img src="docs/demo-images/IndexEnglish.png" width="300" style="margin-right: 10px;"/>
+  <img src="docs/demo-images/QuizLibrary.png" width="300" style="margin-right: 10px;"/>
+  <img src="docs/demo-images/QuizExample.png" width="300" style="margin-right: 10px;"/>
+  <img src="docs/demo-images/Achievements.png" width="300"/>
+</div>
 
-![Quiz Library](docs/demo-images/QuizLibrary.png)
-
-![Quiz](docs/demo-images/QuizExample.png)
-
-![Achievements](docs/demo-images/Achievements.png)
-
-See more demo images in the [Demo Gallery](docs/DemoGallery.md)
+<p>
+See more demo images in the <a href="docs/DemoGallery.md">Demo Gallery</a>
+</p>
 
 ****
 
